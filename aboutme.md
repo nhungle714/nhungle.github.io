@@ -1,16 +1,34 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Why you would want to know me
+css: "/css/aboutme.css"
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+<div id="aboutme-section">
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+<p class="about-text">
+<span class="fa fa-fa fa-institution about-icon"></span>
+Graduate Student at Center for Data Science, New York University
+</p>
 
-What else do you need?
+<p class="about-text">
+  
+<span class="fa fa-code about-icon"></span>
 
-### my history
+Provided business ingishts to drive business decisions using data. Developed and Implemented statistical and predictive models in healthcare business. 
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+</p>
+
+<p class="about-text">
+<span class="fa fa-file-pdf-o about-icon"></span>
+You can learn more about my work via the <strong><a href="https://nhungle714.github.io/projects" target="_blank" style="color:black; text-decoration: underline;">projects</a> (updated 08/11/2019)</strong> page
+</p>
+
+<p class="about-text">
+<span class="fa fa-globe about-icon"></span>
+Hanoian. Dots connector. Wanderlust.
+</p>
+
+
+</div>
