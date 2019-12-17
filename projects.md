@@ -13,6 +13,8 @@ subtitle: Data Science is Fun
 ## Projects
 + **[Breast Cancer Classification](https://github.com/nhungle714/Breast_Cancer_Classification)**: Classified benign vs. malignant breast tumors from mammograms, using transfer learning and deep learning with residual connections. Model achieved average out-of-sample AUC score of 0.85.
 
++ **[Music Recommender System with Implicit Feedback]**: Used Spark's Alternating Least Squares (ALS) method to learn latent factor representations for users and items and tuned the dimension of the latent factors, the regularization parameter, and the scaling parameters. The recommender system on 6 million data points achieved Mean Average Precision (MAP) score of 0.039.
+
 + **[Avocado Price Forecasting](https://github.com/nhungle714/Data-Science-Projects/tree/master/Avocado_Prices)**: Forecasted avocado prices in different regions given historical average avocado prices by region and by type (i.e., conventional vs. organic), using Prophet.
 
 
