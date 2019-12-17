@@ -24,12 +24,12 @@ I enjoy teaching which not only helps me understand the material better but also
 </p>
 
 <p class="about-text">
-<span class="fa fa-pencil about-icon"></span>
+<span class="fas fa-chalkboard-teacher about-icon"></span>
 I write sometime, both in Vietnamese and in English. <strong><a href="https://nhungle714.github.io/writing" target="_blank" style="color:black; text-decoration: underline;">Writing</a></strong> page.
 </p>
 
 <p class="about-text">
-<span class="fa fa-globe about-icon"></span>
+<span class="fa fa-globe about-icon"></span> 
 I love traveling and have been to about 18 different countries.
 </p>
 
