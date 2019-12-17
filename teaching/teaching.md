@@ -1,13 +1,8 @@
 ---
 layout: page
 title: News
-subtitle: Rumor has it...
+subtitle: “Those who know, do. Those that understand, teach.” ― Aristotle
 ---
 
-+ August 2019: Offered a full time position as a Data Scientist at **IBM Watson Healthcare & Life Sciences**
++ **[Probability and Statistics for Data Science](https://nhungle714.github.io/teaching/ProbStats19/)** at NYU CDS
 
-+ August 2019: Happy to be selected as the section leader for Fall 2019 graduate course **[Optimization & Computational Linear Algebra](https://regressionist.github.io/linalgFall19/)** at NYU CDS
-
-+ August 2019: Happy to be selected as the recitation leader for Fall 2019 undergrad course **Probability, Statistics, & Decision Making** at NYU Courant
-
-+ February 2019: Excited to share that I'll be interning at **IBM Watson Health** this summer
