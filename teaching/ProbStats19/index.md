@@ -1,20 +1,25 @@
 ---
 layout: minimal
-title: DS-GA 1014 Fall 2019
+title: DS-GA 1002 Fall 2019
 ---
 
 
 <div style='font-family:BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;'>
 
-<h3>Optimization and Computational Linear Algebra Recitation - Fall 2019</h3>
+<h3>Probability and Statistics for Data Science - Fall 2019</h3>
 <br>
 
 
 <h4><font color="darkred">Lay of the land</font></h4>
 <font size="3">
-Instructor: Léo Miolane<br>
+Instructors: <br>
+<ol>    
+    <li>Carlos Fernandez-Granda (cfgranda@cims.nyu.edu)</li>
+    <li>Ilias Zadik (iz368@nyu.edu)</li>
+</ol>
+<br>
+
 Class: Tuesday, 12:30 PM - 2:10 PM, 12WV G08<br>
-<a href='https://leomiolane.github.io/linalg-for-ds.html' target="_blank">Lecture material</a><br><br>
 
 Section Leader: Ashwin Bhola<br>
 Recitation: Wednesday, 2:00 PM - 2:50 PM, 19W4 101<br>
