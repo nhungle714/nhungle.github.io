@@ -47,10 +47,18 @@ Useful reference material:<br>
 <h4><font color="darkred">Recitations</font></h4>
 <font size="3">
 <ol>
-<li>Week 1: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab1.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab1Sol.pdf' target="_blank">solutions</a>)
-<li>Week 2: Recitation(<a href='/ProbStats19/Recitations/Lab2.pdf' target="_blank">questions</a>, <a href='/ProbStats19/Recitations/Lab2Sol.pdf' target="_blank">solutions</a>)
-<li>Week 3: Recitation(<a href='/ProbStats19/Recitations/Lab3.pdf' target="_blank">questions</a>, <a href='/ProbStats19/Recitations/Lab3Sol.pdf' target="_blank">solutions</a>)
-<li>Week 4: Recitation(<a href='/ProbStats19/Recitations/Lab4.pdf' target="_blank">questions</a>, <a href='/ProbStats19/Recitations/Lab4Sol.pdf' target="_blank">solutions</a>)
+<li>Week 1: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab1.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab1Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 2: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab2.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab2Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 3: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab3.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab3Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 4: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab4.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab4Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 5: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab5.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab5Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 6: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab6.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab6Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 7: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab7.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab7Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 8: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab8.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab8Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 9: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab9.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab9Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 10: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab10.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab10Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 11: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab11.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab11Sol.pdf' target="_blank">solutions</a>)</li>
+<li>Week 12: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab12.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab12Sol.pdf' target="_blank">solutions</a>)</li>
 </ol>
 </font>
 <br>
