@@ -24,7 +24,7 @@ navbar-links:
   About Me: "aboutme"
   ML Projects: "projects"
   Writing: "writing"
-  Teaching: "teaching/teaching"
+  Teaching: "teaching/teachingIndex"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
