@@ -47,7 +47,7 @@ Useful reference material:<br>
 <h4><font color="darkred">Recitations</font></h4>
 <font size="3">
 <ol>
-<li>Week 1: Recitation(<a href='teaching/ProbStats19/Recitations/Lab1.pdf' target="_blank">questions</a>, <a href='teaching/ProbStats19/Recitations/Lab1Sol.pdf' target="_blank">solutions</a>)
+<li>Week 1: Recitation(<a href='/teaching/ProbStats19/Recitations/Lab1.pdf' target="_blank">questions</a>, <a href='/teaching/ProbStats19/Recitations/Lab1Sol.pdf' target="_blank">solutions</a>)
 <li>Week 2: Recitation(<a href='/ProbStats19/Recitations/Lab2.pdf' target="_blank">questions</a>, <a href='/ProbStats19/Recitations/Lab2Sol.pdf' target="_blank">solutions</a>)
 <li>Week 3: Recitation(<a href='/ProbStats19/Recitations/Lab3.pdf' target="_blank">questions</a>, <a href='/ProbStats19/Recitations/Lab3Sol.pdf' target="_blank">solutions</a>)
 <li>Week 4: Recitation(<a href='/ProbStats19/Recitations/Lab4.pdf' target="_blank">questions</a>, <a href='/ProbStats19/Recitations/Lab4Sol.pdf' target="_blank">solutions</a>)
