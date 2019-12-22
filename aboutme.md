@@ -25,7 +25,7 @@ I enjoy teaching which not only helps me understand the material better but also
 
 <p class="about-text">
 <span class="fa fa-pencil about-icon"></span>
-I write sometime, both in Vietnamese and in English. <strong><a href="https://nhungle714.github.io/writing" target="_blank" style="color:black; text-decoration: underline;">Writing</a></strong> page.
+I write sometime, both in Vietnamese and in English. <strong><a href="https://nhungle714.github.io/writing/writingIndex" target="_blank" style="color:black; text-decoration: underline;">Writing</a></strong> page.
 </p>
 
 <p class="about-text">
