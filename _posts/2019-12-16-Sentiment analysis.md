@@ -2,7 +2,7 @@
 layout: post
 title: Sentiment Analysis
 subtitle: ...making a machine understand sentiments
-image: /img/sentiment/cover.pnj
+image: /img/sentiment/cover.png
 ---
 
 People's Choice Award is an annual award show on E! Network voted on by the people and, hopefully, the nominee suggestions are fully representative of the people. How can these suggested nominees are representative of the people as they are so beautiful and rich and we hardly know them even to vote? To many people's surprise, given the rising role of data science in many industries including media, the nominee suggestions are completely backed by data and each nominees are evaluated from various perspectives such as consumption (e.g., Box Office's Gross) and social impact (e.g., Instagram's number of followers, Twitter's sentiment). 
