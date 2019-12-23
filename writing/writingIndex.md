@@ -12,6 +12,10 @@ subtitle: "We write to taste life twice, in the moment and in retrospect." - Ana
 </font>
 <br>
 
-
-
-+ I spent six months working at RubiconMD, a healthcare startup in NYC, to develop and implemented a multi-classification model to to predict medical specialty based on the medical context provided by primary care doctors. Read more about my lessons learned here:  **[](<a href='/teaching/ProbStats19/Recitations/Lab1.pdf' target="_blank">questions</a>)**
+<h4><font color="darkred">Academic</font></h4>
+<font size="3">
+<ol>
+<li>Learn more about my teaching experience at graduate level class via (<a href='https://www.facebook.com/notes/nhung-le/what-teaching-has-taught-me/10157030666672169/' target="_blank">questions</a></li>
+</ol>
+</font>
+<br>
