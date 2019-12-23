@@ -17,4 +17,4 @@ subtitle: "We write to taste life twice, in the moment and in retrospect." - Ana
 <li>Learn more about my teaching experience at graduate level class via <a href='https://www.facebook.com/notes/nhung-le/what-teaching-has-taught-me/10157030666672169/' target="_blank">What teaching has taught me</a></li>
 </ol>
 </font>
-<br>
+
