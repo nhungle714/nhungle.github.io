@@ -19,7 +19,7 @@ Provided business ingishts to drive business decisions using data. Learn more ab
 </p>
 
 <p class="about-text">
-<span class="fas fa-chalkboard-teacher"></span>
+<span class="fa fa fa-book about-icon"></span>
 I enjoy teaching which not only helps me understand the material better but also encourages me to become a better person. My classes' labs can be found via <strong><a href="https://nhungle714.github.io/teaching/teachingIndex" target="_blank" style="color:black; text-decoration: underline;">Teaching</a></strong> page.
 </p>
 
