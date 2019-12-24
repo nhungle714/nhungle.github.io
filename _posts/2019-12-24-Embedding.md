@@ -1,27 +1,46 @@
 ---
 layout: post
-title: Embedding Layer - Basic Understanding
-subtitle: None
+title: Embedding Layer
+subtitle: Basic Understanding
 image: /img/embedding/EmbeddingCover.svg
 ---
 
-People's Choice Award is an annual award show on E! Network voted on by the people and, hopefully, the nominee suggestions are fully representative of the people. How can these suggested nominees are representative of the people as they are so beautiful and rich and we hardly know them even to vote? To many people's surprise, given the rising role of data science in many industries including media, the nominee suggestions are completely backed by data and each nominees are evaluated from various perspectives such as consumption (e.g., Box Office's Gross) and social impact (e.g., Instagram's number of followers, Twitter's sentiment). 
+When I worked on many Natural Language Processing (NLP) projects using deep neural net models, it became a muscle memory to include an embedding layer, knowing vaguely the important role of an embedding layer. I followed this [tutorial](https://developers.google.com/machine-learning/crash-course/embeddings/programming-exercise) provided by TensorFlow team to understand what neural network embeddings are, why we want to use them, and how they are learned.
 
-My internship at NBCUniversal aimed to develop a metric to evaluate social impacts of TV shows and programs, using Twitter's tweets provided by Nielson Social. A simple correlation anlysis between show performance (i.e., IMBD impressions) and conversation volumes (i.e., number of teets) quickly helped me realize that conversation volumes tell little, if nothing, about audience's interest in TV shows. For example, Game of Thrones is #1 tweeted TV show but for both groups of demo people at all age, and people from 18 to 45 years old, there is no correlation between IMBD impression and the volume of conversation. As a result, sentiment analysis plays a vital role in evaluating social impacts of TV shows. 
+## One Hot Encoding
 
-The first step was to select the "right" data by reasoning and by exploration. At first, I wanted to run the sentiment analysis on multiple TV shows using program-level data (e.g., tweets about each programs, regardless of episodes) and learned that this provided only few insights on audience's opinions about the show, espeically if the audience is widely distinguished across episodes. Failing to go broad, I decided to go deep by looking at episode level data and this also meant I could only look at most three shows, given the time constraint. With help my manager's domain experitise, I selected three shows to cover a wide range of styles: The Tonight Show Starring Jimmy Fallon (Semi-scripted late night show), American Idol (non-scripted, competiton), and Game of Thrones (scripted). 
+Deep neural network operates on numbers (e.g., float), so in traditional machinel learning model, we apply one-hot-encoding to represent categorical data as a vector of 0 and 1. 
+![alt text](/img/embedding/one_hot_enc.png)
 
-The right data needed a lot of preprocessing and cleaning work to avoid "garbage in, garbage out." 
+When the categories get large (e.g., 20,000), then having extra 20,000 columnes to present these 20,000 categories would result in a high number of features, potentially leading to overfitting. In addition, if we want to measure similarity between vectors using cosin distance using dot product, the one-hot-encoding vector of 0 and 1 will only give us 0 for every distance between categories. Given the challenges of one-hot-encoding, when the number of categories is large, it becomes infeasible to train a neural network using one-hot encodings. To overcome this challenge, we use embedding to obtain a low-dimension, dense vector of sparse data, in which each cell can contain any number, not just 0 or 1. 
 
 
+## Embedding
 
 
-<!-- ![alt text](/img/Sentiment/ratings.png) -->
+**How model is learned to provide an embedding layer?**
 
+When we train a deep neural net DNN classifier, our model learns a low-dimensional representation for the features, where the dot product defines a similarity metric tailored to the desired task. In this example, terms that are used similarly in the context of movie reviews (e.g., `"great"` and `"excellent"`) will be closer to each other the embedding space (i.e., have a large dot product), and terms that are dissimilar (e.g., `"great"` and `"bad"`) will be farther away from each other in the embedding space (i.e., have a small dot product).
+
+When we train the model with fewer steps (e.g., 10), the model performs terribly and fails to group similar words together. As a result, we observe a sparse representation of words. 
+
+![alt text](/img/embedding/embedding_10steps.png)
+
+When we train the model with more steps (e.g., 10,000), the model does a good job in predicting sentiment of movie reviews with an accuracy of 0.76. Clusters of similar words partly demonstrates the model's capabillity to learn and group similar words to successfully classify sentiment of movie reviews. 
+
+![alt text](/img/embedding/embedding_10000steps.png)
+
+**Applications** 
+
+In the NLP world, relationship between words (e.g., distance between words in a d-dimensional space) helps significanly when solving problems including sentiment analysis, next word prediction. The embedding layer is a weight matrix of d by n, for d being the d-dimensional space to project our words into a lower-dimensional d space, and n being the number of words (i.e., size of corpus). For example, the GloVe (Global Vectors for Word Representation) Twitter 27B provides pretrained word vectors for 2 billion tweets, 27 billion tokens from 1.2 million vocab, uncased in a weights matrix of 200 (d) x 27B (tokens). This matrix gives you the presentation of each token when projected onto a 200 dimensional space, and the sum of each row is 1. 
+
+If we think about embedding simply as mapping discrete categorical variables to a lower-dimensional dense vector of continuous numbers, we can apply the same technique and concepts in predicting some unknown outcomes of a specific target given the outcomes of its neighbors. For example, if you like to predict Jon's rating of Game of Thrones season 8, we can look at his rating of similar series, or look at rating of Game of Thrones season 8 from other viewers similar to him. 
+
+## Conclusion
+
+Embedding is an intuiative and super powerful tool in the machine learning / deep learning world. I added more explanation and key takeaways [here](https://github.com/nhungle714/Data-Science-Projects/tree/master/SentimentAnalysis) 
 
  
-<!-- I have put the code on [GitHub](https://github.com/Regressionist/Sentiment-analysis). You can refer to this code if you want to know how to convert a pandas dataframe to a torchtext tabular dataset. <br/>
-Merry Christmas everyone!
+Merry Christmas, everyone!
 
-Thanks,<br/> -->
-<!-- Ashwin -->
+Nhung Le
