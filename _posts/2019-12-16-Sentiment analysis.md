@@ -11,7 +11,9 @@ My internship at NBCUniversal aimed to develop a metric to evaluate social impac
 
 The first step was to select the "right" data by reasoning and by exploration. At first, I wanted to run the sentiment analysis on multiple TV shows using program-level data (e.g., tweets about each programs, regardless of episodes) and learned that this provided only few insights on audience's opinions about the show, espeically if the audience is widely distinguished across episodes. Failing to go broad, I decided to go deep by looking at episode level data and this also meant I could only look at most three shows, given the time constraint. With help my manager's domain experitise, I selected three shows to cover a wide range of styles: The Tonight Show Starring Jimmy Fallon (Semi-scripted late night show), American Idol (non-scripted, competiton), and Game of Thrones (scripted). 
 
-The right data needed a lot of preprocessing and cleaning work to avoid "garbage in, garbage out." 
+The right data needed a lot of preprocessing and cleaning work to avoid "garbage in, garbage out." After applying standard cleaning process including lowering cases, expanding contractions, and removing HTML tags, I applied cleaning methods specifically to tweets such as standardizing tweet slangs, converting emojis to words, and filtering for English tweets. SpaCy's language filtering library does a great job detecting English and Spanish. 
+
+
 
 
 
