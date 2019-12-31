@@ -15,6 +15,8 @@ subtitle: "We write to taste life twice, in the moment and in retrospect." - Ana
 <font size="3">
 <ol>
 <li>Learn more about my teaching experience at graduate level class via <a href='https://www.facebook.com/notes/nhung-le/what-teaching-has-taught-me/10157030666672169/' target="_blank">What teaching has taught me</a></li>
+
+<li>Learn more about my experience at NYU's Fall 2019. You may want to go back to school as a master! <a href='/writing/Academic/NYU_Fall19.pdf' target="_blank">NYU's Fall 2019</a>,</li>
 </ol>
 </font>
 
