@@ -38,7 +38,7 @@ If we think about embedding simply as mapping discrete categorical variables to 
 
 ## Conclusion
 
-Embedding is an intuiative and super powerful tool in the machine learning / deep learning world. I added more explanation and key takeaways [here.](https://github.com/nhungle714/Data-Science-Projects/tree/master/SentimentAnalysis) 
+Embedding is an intuiative and super powerful tool in the machine learning / deep learning world. I added more explanation and key takeaways [here.](https://github.com/nhungle714/Data-Science-Projects/blob/master/NLP/SentimentAnalysis/intro_to_sparse_data_and_embeddings.ipynb) 
 
  
 Merry Christmas, everyone!
