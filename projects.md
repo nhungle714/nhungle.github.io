@@ -5,7 +5,9 @@ subtitle: Data Science is Fun
 ---
 
 ## Experience
-+ **NBCUniversal**: Developed a sentiment analysis model using Nielsen Social's Twitter data. The fine-tuned BERT model achieved 80% out-of-sample accuracy and will be deployed to develop the sentiment analysis metric to evaluate social impacts of nominee suggestions for People's Choice Award. 
++ **NBCUniversal**: 
+
+    + **Sentiment Analysis** Developed a sentiment analysis model using Nielsen Social's Twitter data. The fine-tuned BERT model achieved 80% out-of-sample accuracy and will be deployed to develop the sentiment analysis metric to evaluate social impacts of nominee suggestions for People's Choice Award. 
 
 + **RubiconMD**: Fully responsible for the development and deployment of a Logistic Regression model to predict medical specialty based on the medical context provided by primary care doctors. The model achieved average out-of-sample AUC score of 0.94 for the top 10 most popular specialties. After the deployment using AWS and Airflow, the model reduces primary care providers' waiting time for  specialist's responses by 25%.
 
